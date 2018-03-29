@@ -4,8 +4,30 @@
 #index{
     color:green;
     text-align:center;
+    float:right;
+    padding-right:500px;
     
 }
-body{
-    background-image:url("uncc.jpg");
+#img{
+     width:300px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    width:250px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul{
+  border:solid 10px green ;
+}
+h2{
+    text-decoration:underline;
 }
