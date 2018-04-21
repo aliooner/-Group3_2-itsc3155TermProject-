@@ -1,22 +1,49 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html { 
+  background: url("https://facilities.uncc.edu/sites/facilities.uncc.edu/files/fields/image_rotator/field_rotator_image/Nighttime_0.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #index{
     color:green;
     text-align:center;
-    float:right;
-    padding-right:560px;
-    
+    position: float; 
 }
 #img{
      width:300px;
 }
 
-.column {
+div.column {
+    // padding-right: 50px;
+    // padding-left: 50px;
+    // padding-top: 50px;
+    // padding-bottom: 50px;
     float: left;
     width: 50%;
-    width:250px;
+    margin: auto;
     
+}
+div#index{
+    align: center;
+}
+
+.column { 
+    //
+}
+.column#column1 {
+    width: 45%; 
+    float: left;
+}
+.column#column2 {
+    width: 45%;
+    float: right; 
 }
 
 /* Clear floats after the columns */
@@ -26,9 +53,58 @@
     clear: both;
 }
 
+
 ul{
   border:solid 10px green ;
+  background-color: white;
+  opacity: 0.7;
+  font-family: 'Lucida Sans Unicode';
 }
+
 h2{
     text-decoration:underline;
+ 
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+     font-family: 'Lucida Sans Unicode';
+   
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+}
+
+#login{
+    position: absolute;
+    right: 0;
+}
+
+.main_container{
+    align: center;
+    width: 100%;
+}
+
+.logo_container {
+    width: 200%;
+    align: center; 
+}
+
+.login_container {
+    align: right;
+}
+
+.center_container { 
+    width: 60%;
+    margin: auto;
+}
+
+.footer { 
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
