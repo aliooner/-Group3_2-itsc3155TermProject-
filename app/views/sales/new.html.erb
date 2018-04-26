@@ -1,2 +1,18 @@
 <h1>FOR SALE</h1>
+
+<div class = 'sales-container'>
+  <div id="item">
+    <%= form_for :sales, url: sales_path do |f| %>
+     
+      <p>
+        <%= f.label :Search %><br>
+        <%= f.text_field :Search %>
+      </p>
+     
+      <p>
+        <%= f.submit :Search %>
+      </p>
+    <% end %>
+    </div>
+</div> 
 <%= link_to 'Back', welcome_index_path %>
