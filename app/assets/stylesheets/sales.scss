@@ -4,6 +4,37 @@ img{
     
 }
 
+#hddescription {
+color: white;
+
+//float: right; 
+
+border: dotted 2px yellow;    
+  width: 200px;
+  
+  position: relative;
+}
+
+#hstyle {
+    
+    color: white;  
+    width: 150px;
+    float: left;
+}
+
+#bucks{
+   color: white;
+   border: dotted 2px yellow; 
+   float: right;
+}
+
+#harddrive {
+    
+    border:solid 2px green; 
+    padding: 10px; 
+    width: 900px;
+}
+
 // Place all the styles related to the Sales controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
