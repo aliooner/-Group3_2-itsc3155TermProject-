@@ -2,38 +2,50 @@ img{
     width: 200px;
     height: 200px;
     border: solid 5px black;
+    margin-left: 35px;
 }
 
 #hddescription {
-color: white;
+color: black;
 
 float: right; 
 
 border: dotted 2px yellow;    
   width: 200px;
-  
-  position: relative;
+  margin-right: 200px;
 }
 
 #hstyle {
-    
-    color: white;  
+    margin-top: 80px;
+    color: black;  
     width: 200px;
     float: left;
 }
 
-#bucks{
-   color: white;
-   border: dotted 2px yellow; 
-   float: right;
-}
 
 #harddrivediv {
     
     border:solid 7px green; 
     padding: 15px; 
     width: 900px;
+    background-color: white;
 }
+
+
+
+#harddrivediv2 {
+    
+    border:solid 7px green; 
+    padding: 15px; 
+    width: 900px;
+    background-color: white;
+}
+
+#user2 {
+ float: left;
+ margin-top: 80px;
+    }
+
 
 // Place all the styles related to the Sales controller here.
 // They will automatically be included in application.css.
