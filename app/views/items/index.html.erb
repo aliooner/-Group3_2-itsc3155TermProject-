@@ -1,0 +1,29 @@
+<h1>New Item</h1>
+
+<%= form_for :item do |f| %>
+
+<p>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+</p>
+
+<p>
+    <%= f.label :item %>
+    <%= f.text_field :item %>
+</p>
+
+<p>
+    <%= f.label :price %>
+    <%= f.text_field :price %>
+</p>
+
+<p>
+    <%= f.label :contact %>
+    <%= f.text_field :contact %>
+</p>
+
+<p>
+    <%= f.submit %>
+</p>
+
+<%end%>

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   
+  resources :items
   resources :sales
   resources :users
   root 'welcome#index'
