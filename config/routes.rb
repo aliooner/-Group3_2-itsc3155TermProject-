@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   
+  resources :services
   resources :items
   resources :sales
   resources :users
