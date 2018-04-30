@@ -1,4 +1,4 @@
-Feature: Login to sell/but item 
+Feature: Login to sell/buy item 
   
   As a user
   So that I will be able to add (create) an item to sell on the list specific to the item and add relevant pictures to sell the item
