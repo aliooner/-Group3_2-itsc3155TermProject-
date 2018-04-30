@@ -27,3 +27,23 @@
 </p>
 
 <%end%>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Item</th>
+    <th>Price</th>
+    <th>Contact</th>
+  </tr>
+  
+<% @items.each do |item| %>
+<tr>
+  <td><%= item.username %></td>
+  <td><%= item.item %></td>
+  <td><%= item.price %></td>
+  <td><%= item.contact %></td>
+  <td><%= link_to 'Show', item_path(item) %></td>
+</tr>
+
+<%end%>
+</table>
